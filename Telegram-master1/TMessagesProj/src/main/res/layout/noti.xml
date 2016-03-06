@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="5dp"
+        android:layout_weight="0.22" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="     현재의 감정지수를 선택해주세요"
+        android:textSize="25dp"
+        android:layout_weight="0.08" />
+
+    <ImageView
+        android:id="@+id/rdg17"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/icon"
+        />
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px"
+        android:id="@+id/seekbar"
+        android:max="100"
+        android:progress="50"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="51dp">
+
+        <ImageView
+            android:id="@+id/rdg10"
+            android:layout_width="20dp"
+            android:layout_height="35dp"
+            android:src="@drawable/icon"
+            />
+        <ImageView
+            android:id="@+id/rdg01"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/sample1"
+
+            />
+        <ImageView
+            android:id="@+id/rdg06"
+            android:layout_width="36dp"
+            android:layout_height="35dp"
+            android:src="@drawable/icon"
+            />
+
+        <ImageView
+            android:id="@+id/rdg02"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/sample2"
+
+            />
+
+        <ImageView
+            android:id="@+id/rdg07"
+            android:layout_width="36dp"
+            android:layout_height="35dp"
+            android:src="@drawable/icon"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/rdg03"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sample3"
+
+            />
+        <ImageView
+            android:id="@+id/rdg08"
+            android:layout_width="36dp"
+            android:layout_height="35dp"
+            android:src="@drawable/icon"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/rdg04"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/sample4"
+
+
+            />
+        <ImageView
+            android:id="@+id/rdg09"
+            android:layout_width="36dp"
+            android:layout_height="35dp"
+            android:src="@drawable/icon"
+
+            />
+
+        <ImageView
+            android:id="@+id/rdg05"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/sample5"
+            android:layout_alignParentRight="true"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <ImageView
+            android:id="@+id/rdg11"
+            android:layout_width="20dp"
+            android:layout_height="35dp"
+            android:src="@drawable/icon"
+
+            />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekbarvalue"
+
+        android:text="50"
+        android:textSize="30dp"
+        android:textColor = "#9999FF"
+        android:layout_gravity="center"
+        android:layout_weight="0.05"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/rdg18"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/icon"
+        />
+
+
+    <Button
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdg001"
+        android:onClick="push"
+        android:layout_gravity="center_horizontal"
+        android:text="선택완료"
+        android:background="#d3d3d3"
+
+
+
+
+    />
+
+</LinearLayout>
+
+
